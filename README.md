@@ -5,12 +5,6 @@
   1. Switch to your projet folder
   2. Run `gcloud app deploy app.yaml --project bonsaistory-195903`
 
-# Deploy locally.
-
-  1. go to folder with app.yaml in it.
-  2. gcloud app deploy app.yaml
-
-
 # Deploy from Google Repository - mirrored from GITHub
   - Not working...
   1. gcloud beta functions deploy default \
