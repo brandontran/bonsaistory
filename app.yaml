@@ -1,0 +1,18 @@
+runtime: php55
+api_version: 1
+
+# Static Files Cache
+default_expiration: "10d"
+
+handlers:
+
+# Order Matters - top first match will be selected
+- url: /(.+\.(gif|png|jpg|css|js|txt|ico))$
+  static_files: \1
+  upload: .+\.(gif|png|jpg|css|js|txt|ico)$
+  secure: always
+
+# Main site pages
+- url: /.*
+  script: index.php
+  secure: always
