@@ -16,3 +16,19 @@ handlers:
 - url: /.*
   script: index.php
   secure: always
+
+
+skip_files:
+- ^env/.*$
+- ^ENV/.*$
+- ^venv/.*$
+- ^htmlcov/.*$
+- ^README\..*
+- \.gitignore
+- ^\.git/.*
+- ^(.*/)?app\.yaml
+- ^(.*/)?app\.yml
+- ^unittest/.*$
+- ^working/.*$
+- ^ideas/.*$
+- ^.sass-cache/.*$

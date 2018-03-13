@@ -1,5 +1,5 @@
 <section>
-  <h2>Welcome to Bonsai Story,</h2>
+  <h1>Welcome to Bonsai Story,</h1>
   <p>
     A site dedicated to those who enjoy learning the art of Bonsai. Find easy tips and techniques on how to style, care, maintain and prune Bonsai trees.
   </p>
@@ -7,6 +7,7 @@
 
 <section class="bonsai-categories text-center">
   <h2>Getting Started with Bonsai</h2>
+
   <div class="span4">
     <a href="/bonsai-intro">
       <div class="cell bonsai-category-1"></div>

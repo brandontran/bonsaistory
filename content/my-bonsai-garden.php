@@ -19,17 +19,5 @@ $body = "
     <li>Rosemary - Testing</li>
   </ul>
 
-
-
-
-
-
-
-
 ";
 ?>
-
-
-
-
-
