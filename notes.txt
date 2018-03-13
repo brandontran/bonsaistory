@@ -1,0 +1,119 @@
+
+
+
+
+
+
+
+
+
+
+
+
+There's a quiet calming element to bonsai.
+
+That solitary connection between you and the tree that stills the mind
+
+No matter the daily stresses there's nothing in the world that really brings
+life into focus quite like interacting with a tree one on one.
+
+And that since the focus is only heightened by the knowledge of the fragility of our chosen
+medium and creating living art.
+
+I think it's a common misconception that bonsai is about control or manipulation
+or that our main concern is with the outcome of design.
+
+Quite to the contrary a bonsai is no longer a bonsai if it's
+dead and perhaps just as importantly if it's not thriving.
+
+Failure to recognize that a plant is a living entity and that
+that life can be snuffed out in an instant whether it be through improper
+care or misapplication of technique is ultimately failure to practice bonsai at the most fundamental level.
+
+Rather than trying to fit in the box thinking against an out-of-the-box
+mentality I prefer to approach bonsai if there is no box to begin with
+
+In other words Bonsai is an art that transcends culture transcends the need
+for labels and ultimately brings people together through a very human desire to
+be closer to nature
+
+It's an incremental art form as well, not only in that the
+trees are forever changing as branches naturally grow or perish but also in the
+sense that many hands over decades might influence the design of an individual
+tree as its passed on from person to person
+
+That interconnectivity between nature and humanity is what sets bonsai
+apart as an art form
+
+Undertaking the six year apprenticeship
+in Japan and subsequently working as a
+professional in the Japanese bonsai
+community has not only opened my mind to
+what bonsai can become through intense
+pursuit of the art at the highest level
+but it's awakened in me a desire to
+spread that passion and love for bonsai
+around the world to inspire and spark
+creativity in generations both old and
+young and to infuse a bit of happiness
+into folks lives through nature and
+across cultures
+
+And that's what I intend to do
+
+you
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+ -->
+    <script>
+      // Minimilistic scroll effect, although not the most effecient
+      var scrollTop = 0;
+      var scale = 1;
+      $(function(){
+        if($('#backdrop').length >= 1){
+          initZoomer();
+        }
+      });
+
+      function initZoomer(){
+        $(document).on('scroll', function(e){
+          scrollTop = $(document).scrollTop();
+          scale = 1 + (scrollTop * .0001);
+          $('#backdrop').css({'transform':'scale('+ scale +')'});
+        });
+      }
+    </script>
+

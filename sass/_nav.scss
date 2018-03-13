@@ -1,0 +1,45 @@
+
+/* MAIN NAV */
+nav {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255,255,255,.98);
+  box-shadow: 0 0 10px rgba(0,0,0,.2);
+  height: 60px;
+  line-height: 60px;
+  color: #f1f1f1;
+  padding: 0 20px;
+  opacity: .97;
+}
+nav .logo {
+  background-image: url('/images/bonsaistory-logo.png');
+  background-size: 44px;
+  background-repeat: no-repeat;
+  background-position: 4px center;
+  padding-left: 52px;
+}
+nav a {
+  position: relative;
+  vertical-align: top;
+  display: inline-block;
+  height: 60px;
+  padding: 0 10px;
+}
+/* SMALL */
+.small { display: none; }
+@media (max-width: 700px) {
+  .large { display: none; }
+  .small { display: block; }
+
+  nav {
+    text-align: center;
+    padding: 0;
+    a {
+      padding: 0 2px;
+    }
+  }
+}
+

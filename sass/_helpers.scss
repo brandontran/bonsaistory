@@ -1,0 +1,180 @@
+
+
+
+
+
+/* GRADIENT */
+.gradient {
+  background-color: #f1f1f1;
+  background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(232,232,232,1) 100%); /* ff3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(232,232,232,1))); /* safari4+,chrome */
+  background:-webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(232,232,232,1) 100%); /* safari5.1+,chrome10+ */
+  background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(232,232,232,1) 100%); /* opera 11.10+ */
+  background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(232,232,232,1) 100%); /* ie10+ */
+  background:radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(232,232,232,1) 100%); /* w3c */
+}
+
+
+
+
+
+
+/* MOBILE */
+@media all and (max-width:700px){
+  body {
+    /*font-size: 1.2em;*/
+  }
+}
+
+/* Tablet */
+@media all and (min-width: 701px) and (max-width: 1400px) {
+   body {
+     /*font-size: 1.3em;*/
+   }
+}
+
+@media print {
+  body {
+    footer { display: none; }
+  }
+  *{
+    -webkit-print-color-adjust:exact
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+  BREAK POINTS Mixins
+  Note: You have to set max width for small because medium is default
+*/
+@mixin bp-small {
+  @media all and (max-width: 700px) {
+    @content;
+  }
+}
+
+@mixin bp-mobile-landscape-and-above {
+  @media all and (min-width: 600px) and (max-width: 1400px) and (orientation: landscape) {
+    @content;
+  }
+}
+
+
+@mixin bp-medium {
+  @media all and (min-width: 701px) and (max-width: 1400px) {
+    @content;
+  }
+}
+
+/* no max width because x-large is not always available */
+@mixin bp-large {
+  @media all and (min-width: 1401px) {
+    @content;
+  }
+}
+
+@mixin bp-xlarge {
+  @media all and (min-width: 1801px) {
+    @content;
+  }
+}
+
+/* TRANSITIONS */
+@mixin transition($args...) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}
+
+@mixin transform($args...) {
+  -webkit-transform: $args;
+  -moz-transform: $args;
+  -ms-transform: $args;
+  -o-transform: $args;
+  transform: $args;
+}
+
+@mixin transition-transform($args...) {
+  -webkit-transition: -webkit-transform $args;
+  -moz-transition: -moz-transform $args;
+  -ms-transition: -ms-transform $args;
+  -o-transition: -o-transform $args;
+  transition: transform $args;
+}
+
+@mixin keyframes($animation-name) {
+  @-webkit-keyframes #{$animation-name} {
+    @content;
+  }
+  @-moz-keyframes #{$animation-name} {
+    @content;
+  }
+  @-ms-keyframes #{$animation-name} {
+    @content;
+  }
+  @-o-keyframes #{$animation-name} {
+    @content;
+  }
+  @keyframes #{$animation-name} {
+    @content;
+  }
+}
+
+@mixin animation($str) {
+  -webkit-animation: #{$str};
+  -moz-animation: #{$str};
+  -ms-animation: #{$str};
+  -o-animation: #{$str};
+  animation: #{$str};
+}
+
+@mixin gradient-linear($start, $end, $startPercent: 0%, $endPercent: 100%) {
+  background: $start;
+  background: -moz-linear-gradient(top, $start $startPercent, $end $endPercent);
+  background: -webkit-gradient(left top, left bottom, color-stop($endPercent, $start), color-stop($endPercent, $end));
+  background: -webkit-linear-gradient(top, $start $startPercent, $end $endPercent);
+  background: -o-linear-gradient(top, $start $startPercent, $end $endPercent);
+  background: -ms-linear-gradient(top, $start $startPercent, $end $endPercent);
+  background: linear-gradient(to bottom, $start $startPercent, $end $endPercent);
+}
+
+@mixin gradient-radial($start, $end) {
+  background: -moz-radial-gradient(circle at top, $start 0%, $end 80%); /* FF3.6+ */
+  background: -webkit-gradient(circle at top, 0px, center center, 80%, color-stop(0%, $start), color-stop(80%, $end)); /* Chrome,Safari4+ */
+  background: radial-gradient(circle at top,  $start 0%, $end 80%); /* W3C */
+  background-attachment: fixed;
+}
+
+@mixin user-select ($selectionType) {
+  -webkit-touch-callout: $selectionType;
+  -webkit-user-select: $selectionType;
+  -khtml-user-select: $selectionType;
+  -moz-user-select: $selectionType;
+  -ms-user-select: $selectionType;
+  user-select: $selectionType;
+}
+
+@mixin box-sizing ($type) {
+  -webkit-box-sizing: $type;
+  -moz-box-sizing: $type;
+  -ms-box-sizing: $type;
+  -o-box-sizing: $type;
+  box-sizing: $type;
+}
+

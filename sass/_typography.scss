@@ -1,0 +1,43 @@
+/* TYPOGRAPHY */
+h1, h2, h3, h4 {
+  font-weight: normal;
+  color: #69733b;
+}
+
+/* Text Alignment */
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-justify { text-align: justify; }
+
+
+
+/* LISTS */
+li { margin-bottom: 12px; }
+
+
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #5278a8;
+  transition: transform 300ms;
+  opacity: 1;
+  padding: 4px;
+}
+a:hover {
+  text-decoration: underline;
+  opacity: .7;
+}
+a:active {
+  opacity: .5;
+  background-color: rgba(0,0,0,.1);
+}
+a:visted {
+  color: #5278a8;
+  opacity: .5;
+}
+
+
+@media (max-width: 700px) {
+  body { font-size: 1.1em !important; }
+}
