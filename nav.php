@@ -19,7 +19,7 @@
 <nav class="small">
   <a href="/">Home</a> |
   <a href="/my-bonsai-garden">Garden</a> |
-  <a href="/how-to-bonsai">HowTo</a> |
+  <a href="/how-to-bonsai">How To</a> |
   <a href="/bonsai-intro">Intro</a> |
   <a href="/about-bonsai-story">About</a>
 </nav>

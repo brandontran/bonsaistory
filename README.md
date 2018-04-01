@@ -1,19 +1,12 @@
-# bonsaistory
+# BonsaiStory
 
-* How to deploy
+* How to deploy from local
 
   1. Switch to your projet folder
-  2. Run `gcloud app deploy app.yaml --project bonsaistory-195903`
-
-# Deploy from Google Repository - mirrored from GITHub
-  - Not working...
-  1. gcloud beta functions deploy default \
-  --source https://source.developers.google.com/projects/bonsaistory-195903/repos/brandontran-bonsaistory/moveable-aliases/master/paths/ \
-  --trigger-http
+  2. gcloud app deploy app.yaml --project bonsaistory-195903
 
 Project: bonsaistory-195903
 Repo: brandontran-bonsaistory
-
 
 * How to add new content
 

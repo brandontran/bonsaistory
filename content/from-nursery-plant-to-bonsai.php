@@ -3,21 +3,21 @@ $title = "From Nursery Plant to Bonsai";
 $description = "It's easy to convert a nursery plant into a Bonsai. Follow these few simple steps.";
 $body = "
   <p>
-    Convert a nursery plant into a Bonsai is one of the best ways to get started in Bonsai.
+    Converting a nursery plant into a Bonsai is one of the best ways to get started in Bonsai. It's affordable, easy and everyone can find a simple 1, 3, 5 gallon tree.
   </p>
 
-  <h2>Select A Tree Variety - Some Great Beginner Trees</h2>
+  <h2>1. Select A Tree Variety - Some Great Beginner Trees</h2>
   <ul>
     <li>Blue Point Juniper</li>
     <li>Blue Rug Juniper</li>
-    <li>Boxwood Hedge</li>
+    <li>Boxwood</li>
   </ul>
 
   <h2>Bonsai Root Pruning and Repot</h2>
   <ul>
-    <li>Prune roots and rake in a radial fashion</li>
+    <li>Prune roots and rake into a radial fashion</li>
     <li>Wire your tree to the pot</li>
-    <li>Re-plant the tree in a pot with Bonsai soil</li>
+    <li>Re-plant the tree in a pot with bonsai soil</li>
   </ul>
 
   <h2>Bonsai Styling</h2>

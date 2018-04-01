@@ -25,9 +25,14 @@ $body = "
   <h2>Bonsai Care and Techniques</h2>
 
   <p><strong>Watering</strong> - The ideal amount of watering is necessary to keep your tree in good health. Trees need water daily but ensure good fast draining soils for best health.</p>
+
   <p><strong>Training</strong> - The use of wires to train branches with a desired style.</p>
+
   <p><strong>Fertilizing</strong> - Due to the small amount of soil, fertilization is necessary for nutrients. There are inorganic fertilizers and organic fertilizers available.</p>
-  <p><strong>Repotting</strong> - It's ideal to repot every 2-3 years to invigerate the plant through root ramification and health.</p>
+
+  <p><strong>Re-potting</strong> - It's ideal to repot every 2-3 years to invigorate the plant through root ramification and health.</p>
+
 </section>
+
 ";
 ?>

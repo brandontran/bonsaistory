@@ -1,4 +1,10 @@
 /* TYPOGRAPHY */
+body {
+  font-size: 1.3em;
+  font-family: 'Century Gothic', 'GillSans', 'Arial';
+  line-height: 1.5;
+}
+
 h1, h2, h3, h4 {
   font-weight: normal;
   color: #69733b;
@@ -13,7 +19,10 @@ h1, h2, h3, h4 {
 
 
 /* LISTS */
-li { margin-bottom: 12px; }
+li {
+  margin-bottom: 12px;
+  text-align: left;
+}
 
 
 
@@ -37,6 +46,7 @@ a:visted {
   color: #5278a8;
   opacity: .5;
 }
+
 
 
 @media (max-width: 700px) {
