@@ -1,3 +1,6 @@
+<?php
+  $build_version = "1.0"
+?>
 <head>
   <title><?=$title?></title>
   <meta charset="UTF-8">
@@ -12,6 +15,6 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="http://bonsaistory.com">
 
-  <link rel="stylesheet" href="/css/s.css">
+  <link rel="stylesheet" href="/css/s.css?v=<?php echo $build_version; ?>">
   <link rel="prefetch" href="/bonsai-intro">
 </head>

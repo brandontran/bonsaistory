@@ -11,7 +11,7 @@
   <div class="span4">
     <a href="/bonsai-intro" class="home-category">
       <div class="cell bonsai-category-1"></div>
-      <h3>Bonsai Intro</h3>
+      <p>Bonsai Intro</p>
     </a>
 
     <ul>
@@ -23,13 +23,13 @@
   --><div class="span4">
     <a href="/from-nursery-plant-to-bonsai" class="home-category">
       <div class="cell bonsai-category-2"></div>
-      <h3>From Nursery Plant to Bonsai</h3>
+      <p>From Nursery Plant to Bonsai</p>
     </a>
   </div><!--
   --><div class="span4">
     <a href="/advanced-bonsai-techniques" class="home-category">
       <div class="cell bonsai-category-3"></div>
-      <h3>Advanced Bonsai Techniques</h3>
+      <p>Advanced Bonsai Techniques</p>
     </a>
 
     <ul>
@@ -41,7 +41,7 @@
 <section>
   <h2>Goals for 2018</h2>
   <p>
-    This year I will be working on converting several nursery plants to pre-bonsai. My goal is to illustrate the top 3 tips to simplify the process of bonsai so that anyone interested can dive right in. Another goal is to expand my collection and document my journey as I grow with bonsai.
+    This year I will be working on converting several nursery plants to pre-bonsai and air-layering a few varieties for pre-bonsai. My goal is to illustrate the top 3 tips to simplify the process of bonsai so that anyone interested can dive right in. Another goal is to expand my collection and document my story as I grow with bonsai.
   </p>
   <p>
     This year is the start of my Bonsai journey. Stay with me as I learn and grow in the art of Bonsai.

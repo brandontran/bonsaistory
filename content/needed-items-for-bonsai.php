@@ -1,5 +1,5 @@
 <?php
-$title = "Needed Items for Bonsai";
+$title = "Needed Items and Tools for Bonsai";
 $description = "You will need certain tools, materials and items to practice the art of bonsai. Here are my favorite sources.";
 $body = "
 
@@ -38,8 +38,3 @@ $body = "
 
 ";
 ?>
-
-
-
-
-

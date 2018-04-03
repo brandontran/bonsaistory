@@ -28,6 +28,11 @@ Air layering is one of my favorite techniques to propagate a tree as it shaves o
   <li>Wait 2-4 months while checking roots periodically</li>
   <li>Cut below the air layer section and plant tree</li>
 </ol>
+
+<div class='gallery'>
+  <img src='/content-images/air-layering-1.jpg' alt='Air Layering 1'>
+  <img src='/content-images/air-layering-2.jpg' alt='Air Layering 2'>
+</div>
 ";
 ?>
 

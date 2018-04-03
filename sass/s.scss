@@ -83,14 +83,16 @@ footer {
 /* BONSAI CATEGORIES */
 .bonsai-categories {
   margin: 0 -2%;
-  a { display: block; }
-  h3 {
-    margin-top: 4px;
+  a {
+    display: block;
+  }
+  p {
+    margin: 0;
   }
 }
 
 .home-category {
-  padding: 5%;
+  margin: 5%;
 }
 
 .cell {
@@ -100,6 +102,7 @@ footer {
   height: 200px;
   border-radius: 2px;
   overflow: hidden;
+  margin-bottom: 8px;
 }
 .bonsai-category-1 {
   background-image: url('/images/bonsai-category-1.jpg');
@@ -117,12 +120,28 @@ footer {
     margin: 0;
   }
   .home-category {
-    padding: 0;
+    margin: 0;
   }
 
 }
 
 
+/* IMAGE GALLERY */
+.gallery {
+  img {
+    display: inline-block;
+    width: 20%;
+    max-width: 300px;
+  }
+}
+@media all and (max-width:700px){
+  .gallery {
+    text-align: center;
+    img {
+      width: 100%;
+    }
+  }
+}
 
 
 

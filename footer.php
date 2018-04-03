@@ -1,5 +1,6 @@
 <footer>
   <a href="/about-bonsai-story">About Us</a> |
+  <a href="/bonsai-glossary">Bonsai Glossary</a> |
   <a href="/contact">Contact</a> |
   <a href="https://brandontran.com">Brandon Tran</a>
 </footer>
