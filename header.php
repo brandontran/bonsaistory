@@ -1,5 +1,5 @@
 <?php
-  $build_version = "1.0"
+  $build_version = "1.0.1"
 ?>
 <head>
   <title><?=$title?></title>
